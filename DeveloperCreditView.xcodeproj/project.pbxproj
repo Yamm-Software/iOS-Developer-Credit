@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB80962188DD325000985CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80961188DD325000985CB /* Foundation.framework */; };
+		EDB80964188DD325000985CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80963188DD325000985CB /* CoreGraphics.framework */; };
+		EDB80966188DD325000985CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80965188DD325000985CB /* UIKit.framework */; };
+		EDB8096C188DD325000985CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB8096A188DD325000985CB /* InfoPlist.strings */; };
+		EDB8096E188DD325000985CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB8096D188DD325000985CB /* main.m */; };
+		EDB80972188DD325000985CB /* YSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB80971188DD325000985CB /* YSAppDelegate.m */; };
+		EDB80975188DD325000985CB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB80973188DD325000985CB /* Main_iPhone.storyboard */; };
+		EDB80978188DD325000985CB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB80976188DD325000985CB /* Main_iPad.storyboard */; };
+		EDB8097B188DD325000985CB /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB8097A188DD325000985CB /* YSViewController.m */; };
+		EDB8097D188DD325000985CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB8097C188DD325000985CB /* Images.xcassets */; };
+		EDB80984188DD325000985CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80983188DD325000985CB /* XCTest.framework */; };
+		EDB80985188DD325000985CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80961188DD325000985CB /* Foundation.framework */; };
+		EDB80986188DD325000985CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80965188DD325000985CB /* UIKit.framework */; };
+		EDB8098E188DD325000985CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB8098C188DD325000985CB /* InfoPlist.strings */; };
+		EDB80990188DD325000985CB /* DeveloperCreditViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB8098F188DD325000985CB /* DeveloperCreditViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB80987188DD325000985CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB80956188DD325000985CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB8095D188DD325000985CB;
+			remoteInfo = DeveloperCreditView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB8095E188DD325000985CB /* DeveloperCreditView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperCreditView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB80961188DD325000985CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDB80963188DD325000985CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDB80965188DD325000985CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDB80969188DD325000985CB /* DeveloperCreditView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeveloperCreditView-Info.plist"; sourceTree = "<group>"; };
+		EDB8096B188DD325000985CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB8096D188DD325000985CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB8096F188DD325000985CB /* DeveloperCreditView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeveloperCreditView-Prefix.pch"; sourceTree = "<group>"; };
+		EDB80970188DD325000985CB /* YSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSAppDelegate.h; sourceTree = "<group>"; };
+		EDB80971188DD325000985CB /* YSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSAppDelegate.m; sourceTree = "<group>"; };
+		EDB80974188DD325000985CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EDB80977188DD325000985CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EDB80979188DD325000985CB /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
+		EDB8097A188DD325000985CB /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		EDB8097C188DD325000985CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB80982188DD325000985CB /* DeveloperCreditViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveloperCreditViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB80983188DD325000985CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDB8098B188DD325000985CB /* DeveloperCreditViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeveloperCreditViewTests-Info.plist"; sourceTree = "<group>"; };
+		EDB8098D188DD325000985CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB8098F188DD325000985CB /* DeveloperCreditViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveloperCreditViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB8095B188DD325000985CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB80964188DD325000985CB /* CoreGraphics.framework in Frameworks */,
+				EDB80966188DD325000985CB /* UIKit.framework in Frameworks */,
+				EDB80962188DD325000985CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8097F188DD325000985CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB80984188DD325000985CB /* XCTest.framework in Frameworks */,
+				EDB80986188DD325000985CB /* UIKit.framework in Frameworks */,
+				EDB80985188DD325000985CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB80955188DD325000985CB = {
+			isa = PBXGroup;
+			children = (
+				EDB80967188DD325000985CB /* DeveloperCreditView */,
+				EDB80989188DD325000985CB /* DeveloperCreditViewTests */,
+				EDB80960188DD325000985CB /* Frameworks */,
+				EDB8095F188DD325000985CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB8095F188DD325000985CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8095E188DD325000985CB /* DeveloperCreditView.app */,
+				EDB80982188DD325000985CB /* DeveloperCreditViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB80960188DD325000985CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB80961188DD325000985CB /* Foundation.framework */,
+				EDB80963188DD325000985CB /* CoreGraphics.framework */,
+				EDB80965188DD325000985CB /* UIKit.framework */,
+				EDB80983188DD325000985CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB80967188DD325000985CB /* DeveloperCreditView */ = {
+			isa = PBXGroup;
+			children = (
+				EDB80970188DD325000985CB /* YSAppDelegate.h */,
+				EDB80971188DD325000985CB /* YSAppDelegate.m */,
+				EDB80973188DD325000985CB /* Main_iPhone.storyboard */,
+				EDB80976188DD325000985CB /* Main_iPad.storyboard */,
+				EDB80979188DD325000985CB /* YSViewController.h */,
+				EDB8097A188DD325000985CB /* YSViewController.m */,
+				EDB8097C188DD325000985CB /* Images.xcassets */,
+				EDB80968188DD325000985CB /* Supporting Files */,
+			);
+			path = DeveloperCreditView;
+			sourceTree = "<group>";
+		};
+		EDB80968188DD325000985CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB80969188DD325000985CB /* DeveloperCreditView-Info.plist */,
+				EDB8096A188DD325000985CB /* InfoPlist.strings */,
+				EDB8096D188DD325000985CB /* main.m */,
+				EDB8096F188DD325000985CB /* DeveloperCreditView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB80989188DD325000985CB /* DeveloperCreditViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8098F188DD325000985CB /* DeveloperCreditViewTests.m */,
+				EDB8098A188DD325000985CB /* Supporting Files */,
+			);
+			path = DeveloperCreditViewTests;
+			sourceTree = "<group>";
+		};
+		EDB8098A188DD325000985CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8098B188DD325000985CB /* DeveloperCreditViewTests-Info.plist */,
+				EDB8098C188DD325000985CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB8095D188DD325000985CB /* DeveloperCreditView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB80993188DD325000985CB /* Build configuration list for PBXNativeTarget "DeveloperCreditView" */;
+			buildPhases = (
+				EDB8095A188DD325000985CB /* Sources */,
+				EDB8095B188DD325000985CB /* Frameworks */,
+				EDB8095C188DD325000985CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeveloperCreditView;
+			productName = DeveloperCreditView;
+			productReference = EDB8095E188DD325000985CB /* DeveloperCreditView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB80981188DD325000985CB /* DeveloperCreditViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB80996188DD325000985CB /* Build configuration list for PBXNativeTarget "DeveloperCreditViewTests" */;
+			buildPhases = (
+				EDB8097E188DD325000985CB /* Sources */,
+				EDB8097F188DD325000985CB /* Frameworks */,
+				EDB80980188DD325000985CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB80988188DD325000985CB /* PBXTargetDependency */,
+			);
+			name = DeveloperCreditViewTests;
+			productName = DeveloperCreditViewTests;
+			productReference = EDB80982188DD325000985CB /* DeveloperCreditViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB80956188DD325000985CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yamm Software Inc.";
+				TargetAttributes = {
+					EDB80981188DD325000985CB = {
+						TestTargetID = EDB8095D188DD325000985CB;
+					};
+				};
+			};
+			buildConfigurationList = EDB80959188DD325000985CB /* Build configuration list for PBXProject "DeveloperCreditView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB80955188DD325000985CB;
+			productRefGroup = EDB8095F188DD325000985CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB8095D188DD325000985CB /* DeveloperCreditView */,
+				EDB80981188DD325000985CB /* DeveloperCreditViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB8095C188DD325000985CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB80978188DD325000985CB /* Main_iPad.storyboard in Resources */,
+				EDB8097D188DD325000985CB /* Images.xcassets in Resources */,
+				EDB80975188DD325000985CB /* Main_iPhone.storyboard in Resources */,
+				EDB8096C188DD325000985CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB80980188DD325000985CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8098E188DD325000985CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB8095A188DD325000985CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB8097B188DD325000985CB /* YSViewController.m in Sources */,
+				EDB80972188DD325000985CB /* YSAppDelegate.m in Sources */,
+				EDB8096E188DD325000985CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB8097E188DD325000985CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB80990188DD325000985CB /* DeveloperCreditViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB80988188DD325000985CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB8095D188DD325000985CB /* DeveloperCreditView */;
+			targetProxy = EDB80987188DD325000985CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB8096A188DD325000985CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB8096B188DD325000985CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDB80973188DD325000985CB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB80974188DD325000985CB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB80976188DD325000985CB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB80977188DD325000985CB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB8098C188DD325000985CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB8098D188DD325000985CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB80991188DD325000985CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB80992188DD325000985CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB80994188DD325000985CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeveloperCreditView/DeveloperCreditView-Prefix.pch";
+				INFOPLIST_FILE = "DeveloperCreditView/DeveloperCreditView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDB80995188DD325000985CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeveloperCreditView/DeveloperCreditView-Prefix.pch";
+				INFOPLIST_FILE = "DeveloperCreditView/DeveloperCreditView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDB80997188DD325000985CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeveloperCreditView.app/DeveloperCreditView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeveloperCreditView/DeveloperCreditView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DeveloperCreditViewTests/DeveloperCreditViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDB80998188DD325000985CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeveloperCreditView.app/DeveloperCreditView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeveloperCreditView/DeveloperCreditView-Prefix.pch";
+				INFOPLIST_FILE = "DeveloperCreditViewTests/DeveloperCreditViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB80959188DD325000985CB /* Build configuration list for PBXProject "DeveloperCreditView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB80991188DD325000985CB /* Debug */,
+				EDB80992188DD325000985CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB80993188DD325000985CB /* Build configuration list for PBXNativeTarget "DeveloperCreditView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB80994188DD325000985CB /* Debug */,
+				EDB80995188DD325000985CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB80996188DD325000985CB /* Build configuration list for PBXNativeTarget "DeveloperCreditViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB80997188DD325000985CB /* Debug */,
+				EDB80998188DD325000985CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB80956188DD325000985CB /* Project object */;
+}
