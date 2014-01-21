@@ -33,7 +33,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <gestureRecognizers/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
@@ -44,6 +44,6 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="yamm_logo_new_icon.png" width="120" height="78"/>
+        <image name="yamm_logo_new_icon.png" width="120" height="77"/>
     </resources>
 </document>
