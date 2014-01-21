@@ -22,10 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    dcVC = [[YSDeveloperCreditVC alloc] init];
+    dcVC = [[YSDeveloperCreditVC alloc] initWithImageNamed:@"yamm_logo_new_icon" andCustomLabelText:@"Hey check us out!"];
     dcVC.view.frame = self.developerCreditView.frame;
-    dcVC.customLabel.text = @"Hey check us you at http://yamm.ca";
-    dcVC.logoImageView.image = [UIImage imageNamed:@"yamm_logo_new_icon.png"];
     [self.developerCreditView addSubview:dcVC.view];
 }
 

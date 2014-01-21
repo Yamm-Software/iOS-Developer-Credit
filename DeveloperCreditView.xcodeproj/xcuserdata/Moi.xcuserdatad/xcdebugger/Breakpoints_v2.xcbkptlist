@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YSDeveloperCreditViewController/YSDeveloperCreditVC.m"
-            timestampString = "411965369.756223"
+            timestampString = "411968618.325864"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "-logoTap:"
             landmarkType = "5">
          </BreakpointContent>
