@@ -1,5 +1,5 @@
 //
-//  YSViewController.h
+//  YSDeveloperCreditVC.h
 //  DeveloperCreditView
 //
 //  Created by Roger on 1/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YSViewController : UIViewController
+@interface YSDeveloperCreditVC : UIViewController
 
 @end
