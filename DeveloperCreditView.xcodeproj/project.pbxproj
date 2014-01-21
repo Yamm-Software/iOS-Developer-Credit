@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDB5B61E188E176C00708D0F /* yamm_logo_new_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB5B61D188E176C00708D0F /* yamm_logo_new_icon@2x.png */; };
+		EDB5B620188E17A500708D0F /* yamm_logo_new_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB5B61F188E17A500708D0F /* yamm_logo_new_icon.png */; };
 		EDB80962188DD325000985CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80961188DD325000985CB /* Foundation.framework */; };
 		EDB80964188DD325000985CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80963188DD325000985CB /* CoreGraphics.framework */; };
 		EDB80966188DD325000985CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80965188DD325000985CB /* UIKit.framework */; };
@@ -21,8 +23,6 @@
 		EDB80986188DD325000985CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB80965188DD325000985CB /* UIKit.framework */; };
 		EDB8098E188DD325000985CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB8098C188DD325000985CB /* InfoPlist.strings */; };
 		EDB80990188DD325000985CB /* DeveloperCreditViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB8098F188DD325000985CB /* DeveloperCreditViewTests.m */; };
-		EDB809A9188DD811000985CB /* yamm_logo_new_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB809A4188DD811000985CB /* yamm_logo_new_icon.png */; };
-		EDB809AA188DD811000985CB /* yamm_logo_new_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB809A5188DD811000985CB /* yamm_logo_new_icon@2x.png */; };
 		EDB809C9188DFD24000985CB /* YSDeveloperCreditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB809C8188DFD24000985CB /* YSDeveloperCreditVC.m */; };
 		EDB809CC188DFE6C000985CB /* YSDeveloperCreditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB809CB188DFE6C000985CB /* YSDeveloperCreditViewController.m */; };
 		EDB809D0188E0878000985CB /* YSDeveloperCreditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB809CF188E0878000985CB /* YSDeveloperCreditView.xib */; };
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EDB5B61D188E176C00708D0F /* yamm_logo_new_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamm_logo_new_icon@2x.png"; sourceTree = "<group>"; };
+		EDB5B61F188E17A500708D0F /* yamm_logo_new_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yamm_logo_new_icon.png; sourceTree = "<group>"; };
 		EDB8095E188DD325000985CB /* DeveloperCreditView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperCreditView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB80961188DD325000985CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDB80963188DD325000985CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +59,6 @@
 		EDB8098B188DD325000985CB /* DeveloperCreditViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeveloperCreditViewTests-Info.plist"; sourceTree = "<group>"; };
 		EDB8098D188DD325000985CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDB8098F188DD325000985CB /* DeveloperCreditViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveloperCreditViewTests.m; sourceTree = "<group>"; };
-		EDB809A4188DD811000985CB /* yamm_logo_new_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yamm_logo_new_icon.png; sourceTree = "<group>"; };
-		EDB809A5188DD811000985CB /* yamm_logo_new_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamm_logo_new_icon@2x.png"; sourceTree = "<group>"; };
 		EDB809C7188DFD24000985CB /* YSDeveloperCreditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDeveloperCreditVC.h; sourceTree = "<group>"; };
 		EDB809C8188DFD24000985CB /* YSDeveloperCreditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDeveloperCreditVC.m; sourceTree = "<group>"; };
 		EDB809CA188DFE6C000985CB /* YSDeveloperCreditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDeveloperCreditViewController.h; sourceTree = "<group>"; };
@@ -130,6 +130,8 @@
 				EDB809CB188DFE6C000985CB /* YSDeveloperCreditViewController.m */,
 				EDB80973188DD325000985CB /* Main_iPhone.storyboard */,
 				EDB80976188DD325000985CB /* Main_iPad.storyboard */,
+				EDB5B61F188E17A500708D0F /* yamm_logo_new_icon.png */,
+				EDB5B61D188E176C00708D0F /* yamm_logo_new_icon@2x.png */,
 				EDB8097C188DD325000985CB /* Images.xcassets */,
 				EDB80968188DD325000985CB /* Supporting Files */,
 			);
@@ -170,8 +172,6 @@
 			children = (
 				EDB809C7188DFD24000985CB /* YSDeveloperCreditVC.h */,
 				EDB809C8188DFD24000985CB /* YSDeveloperCreditVC.m */,
-				EDB809A4188DD811000985CB /* yamm_logo_new_icon.png */,
-				EDB809A5188DD811000985CB /* yamm_logo_new_icon@2x.png */,
 				EDB809CF188E0878000985CB /* YSDeveloperCreditView.xib */,
 			);
 			name = YSDeveloperCreditView;
@@ -258,10 +258,10 @@
 				EDB80978188DD325000985CB /* Main_iPad.storyboard in Resources */,
 				EDB8097D188DD325000985CB /* Images.xcassets in Resources */,
 				EDB80975188DD325000985CB /* Main_iPhone.storyboard in Resources */,
-				EDB809A9188DD811000985CB /* yamm_logo_new_icon.png in Resources */,
 				EDB809D0188E0878000985CB /* YSDeveloperCreditView.xib in Resources */,
 				EDB8096C188DD325000985CB /* InfoPlist.strings in Resources */,
-				EDB809AA188DD811000985CB /* yamm_logo_new_icon@2x.png in Resources */,
+				EDB5B620188E17A500708D0F /* yamm_logo_new_icon.png in Resources */,
+				EDB5B61E188E176C00708D0F /* yamm_logo_new_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +504,7 @@
 				EDB80995188DD325000985CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB80996188DD325000985CB /* Build configuration list for PBXNativeTarget "DeveloperCreditViewTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				EDB80998188DD325000985CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

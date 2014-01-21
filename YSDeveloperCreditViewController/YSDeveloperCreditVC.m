@@ -10,8 +10,6 @@
 
 @interface YSDeveloperCreditVC ()
 
-@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGR;
-
 @end
 
 @implementation YSDeveloperCreditVC

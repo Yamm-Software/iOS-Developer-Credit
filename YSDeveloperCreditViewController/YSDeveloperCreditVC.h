@@ -10,4 +10,8 @@
 
 @interface YSDeveloperCreditVC : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGR;
+@property (weak, nonatomic) IBOutlet UIImageView *logoImageView;
+@property (weak, nonatomic) IBOutlet UILabel *customLabel;
+
 @end
